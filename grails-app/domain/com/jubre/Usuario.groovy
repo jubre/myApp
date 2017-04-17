@@ -6,4 +6,9 @@ class Usuario {
     String nombre
     String email
     Date fechaAlta
+
+    static constraints = {
+        nombre(size: 3..50)
+        email(email: true)
+    }
 }
