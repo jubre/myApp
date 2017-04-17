@@ -1,7 +1,8 @@
 package com.jubre
 
 class Comentario {
-
-    static constraints = {
-    }
+    static belongsTo = Truco
+    String autor
+    String texto
+    Date fecha
 }

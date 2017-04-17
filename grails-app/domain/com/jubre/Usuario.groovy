@@ -2,6 +2,8 @@ package com.jubre
 
 class Usuario {
 
-    static constraints = {
-    }
+    static hasMany = [trucos: Truco]
+    String nombre
+    String email
+    Date fechaAlta
 }
